@@ -26,23 +26,32 @@ else:
 time.sleep(0)
 print("lets begin")
 time.sleep(0)
-answer = "captain america"
+answer = "Captain america"
 print("whos the first avenger?")
 if input() == answer:
     print("Great job")
 else:
     print("sorry it's Captain america")
-answer_2 = "minecraft"
+time.sleep(0)
+answer_2 = "Minecraft"
 print("what is the popular block game called?")
 if input() == answer_2:
     print("great, you know the fact")
 else:
     print("It is minecraft")
-answer_3 = "i am groot"
+time.sleep(0)
+answer_3 = "I am groot"
 print("what is the only line groot knows from the Marvel universe?")
 if input() == answer_3:
-    print("That is correct")
+    print("That is correct. You really know your Avengers.")
 else:
     print("The line is 'I am groot'")
 time.sleep(0)
-
+answer_4 = "T series"
+print("Who is the most subscribe youtube as of when this quiz is made?")
+if input() == answer_4:
+    print("You are up to date!")
+else:
+    print("it is T series. You need to be more up to date.")
+time.sleep(0)
+answer_5 =
