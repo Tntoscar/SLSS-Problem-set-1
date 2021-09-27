@@ -44,3 +44,5 @@ if input() == answer_3:
     print("That is correct")
 else:
     print("The line is 'I am groot'")
+time.sleep(0)
+
