@@ -26,8 +26,8 @@ else:
 time.sleep(0)
 print("lets begin")
 time.sleep(0)
-answer = "Captain america"
-print("whos the first avenger?")
+answer = "Captain America"
+print("Whos the first Avenger?")
 if input() == answer:
     print("Great job")
 else:
@@ -40,7 +40,7 @@ if input() == answer_2:
 else:
     print("It is minecraft")
 time.sleep(0)
-answer_3 = "I am groot"
+answer_3 = "I am Groot"
 print("what is the only line groot knows from the Marvel universe?")
 if input() == answer_3:
     print("That is correct. You really know your Avengers.")
@@ -54,4 +54,9 @@ if input() == answer_4:
 else:
     print("it is T series. You need to be more up to date.")
 time.sleep(0)
-answer_5 =
+answer_5 = "2"
+print("What is 1+1-1+1")
+if input() == answer_5:
+    print("You passed math.")
+else:
+    print("The answer is 2, you need to work on your math skills.")
