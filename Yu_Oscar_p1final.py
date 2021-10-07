@@ -16,52 +16,66 @@ print(f"Welcome {user_name}")
 time.sleep(0)
 print("Your objective is to answer all the questions correctly.")
 time.sleep(2)
-answer_0 = "yes"
-answer_01 = "yea"
+
 print("Are your ready?")
-if input() == answer_0 or answer_01:
+if input().lower() == "yes" or "yea":
     print("Good to hear")
 else:
     print("Well too bad")
 time.sleep(2)
 print("Lets begin")
+
+
 time.sleep(2)
-answer = "Captain America"
-answer2 = "captain america"
+
+
 print("Who is the first Avenger?")
-if input() == answer or answer2:
+if input().lower() == "captain america":
     score = score + 1
     print("Great job")
 else:
     print("Sorry it's Captain america")
+
+
 time.sleep(2)
-answer_2 = "Minecraft"
-answer2_2 = "minecraft"
+
+
+
 print("What is the popular block game called?")
-if input() == answer_2 or answer2_2:
+if input().lower() == "minecraft":
     score = score + 1
     print("Great, you know the fact")
 else:
     print("It is minecraft")
+
+
 time.sleep(2)
-answer_3 = "I am Groot"
-answer2_3 = "i am groot"
+
+
+
 print("What is the only line groot knows from the Marvel universe?")
-if input() == answer_3 or answer2_3:
+if input().lower() == "i am groot":
     score =  score + 1
     print("That is correct. You really know your Avengers.")
 else:
     print("The line is 'I am groot'")
+
+
 time.sleep(2)
-answer_4 = "T series"
-answer2_4 = "t series"
+
+
+
 print("As of making this quiz, who is the most subscribed youtuber?")
-if input() == answer_4 or answer2_4:
+if input().lower() == "t series":
     score = score + 1
     print("You are up to date!")
 else:
     print("It is T series. You need to be more up to date.")
+
+
 time.sleep(2)
+
+
 answer_5 = "2"
 print("What is 1+1-1+1")
 if input() == answer_5:
