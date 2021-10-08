@@ -13,12 +13,12 @@ print("What is your name?")
 user_name = input()
 time.sleep(2)
 print(f"Welcome {user_name}")
-time.sleep(0)
+time.sleep(2)
 print("Your objective is to answer all the questions correctly.")
 time.sleep(2)
 
 print("Are your ready?")
-if input().lower() == "yes" or "yea":
+if input().lower() == "yes" or "yea" or "ye":
     print("Good to hear")
 else:
     print("Well too bad")
@@ -54,7 +54,7 @@ time.sleep(2)
 
 
 print("What is the only line groot knows from the Marvel universe?")
-if input().lower() == "i am groot":
+if input() == "i am groot":
     score =  score + 1
     print("That is correct. You really know your Avengers.")
 else:
@@ -93,3 +93,5 @@ if score == 2:
     print(f"You still need to study more. Your score is {score}/5")
 if score == 1:
     print(f"If you wish to beat this quiz, train for another 100 years. your score is {score}/5")
+if score == 0:
+    print(f"I am sorry for your loss. your score is {score}/5")
